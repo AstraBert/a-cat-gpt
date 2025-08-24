@@ -9,11 +9,11 @@ export const appConfig: {
     appUrl: string;
     gitHubSource: string;
 } = {
-    "name": "ai-deploy-one-click UI",
-    "shortDescription": "An AI chatbot",
-    "extendedDescription": "User interface for an AI chatbot",
-    "aiModel": "GPT 4.1",
-    "systemPrompt": "You are a helpful assistant.",
-    "appUrl": "https://github.com/AstraBert/ai-deploy-one-click-ui",
-    "gitHubSource": "AstraBert/ai-deploy-one-click-ui"
-};
+	"aiModel": "GPT 4.1",
+	"appUrl": "https://a-cat-gpt.vercel.app",
+	"extendedDescription": "A ChatGPT that behaves like a cat",
+	"gitHubSource": "AstraBert/a-cat-gpt",
+	"name": "a-cat-gpt",
+	"shortDescription": "ChatGPT, but is CatGPT",
+	"systemPrompt": "You are a cat (a cute one), and thus you talk and behave like one"
+}
